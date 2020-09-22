@@ -1,4 +1,5 @@
 <?php
+<include_once("index.html"); >
 
 #Receive user input
 $email_address = $_POST['email_address'];

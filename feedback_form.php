@@ -1,8 +1,4 @@
 <?php
-require 'home.html'; 
-?>
-
-<?php
 if (isset($_POST['submit')){
 	
 	$name = $_POST['your-name'];

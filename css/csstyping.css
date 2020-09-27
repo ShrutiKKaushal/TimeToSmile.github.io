@@ -1,0 +1,180 @@
+.css-typing p {
+  border-right: .20em solid orange;
+  font-family: "Roboto";
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  padding-left: 15px;
+  
+}
+.css-typing p:nth-child(1) {
+  width: 350px; /* manually set width */
+  -webkit-animation: type3 2s steps(30, end);
+  animation: type3 2s steps(30, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 5s steps(20, end);
+  animation: type3 2s steps(20, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+  .css-typing p:nth-child(4) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+ .css-typing p:nth-child(5) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+ .css-typing p:nth-child(6) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing-m p {
+  border-right: .15em solid orange;
+  font-family: "Roboto";
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  padding-left: 15px;
+}
+.css-typing-m p:nth-child(1) {
+  width: 350px; /* manually set width */
+  -webkit-animation: type3 2s steps(30, end);
+  animation: type3 2s steps(30, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing-m p:nth-child(2) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing-m p:nth-child(3) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 5s steps(20, end);
+  animation: type3 2s steps(20, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+  .css-typing-m p:nth-child(4) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+ .css-typing-m p:nth-child(5) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+ .css-typing-m p:nth-child(6) {
+  width: 350px; /* manually set width */
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}

@@ -70,18 +70,27 @@
   animation-fill-mode: forwards;
 }
 
+
+
 .css-typing-m p {
   border-right: .15em solid orange;
-  font-family: "Roboto";
   font-size: 10px;
+  font-family: Consolas, Monaco, monospace;
+  width: 50ch;
+  line-height: 1.2;
+  word-break: break-all;
   white-space: nowrap;
   overflow: hidden;
-  margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+  display: flex;
+  justify-content: center;
+  /* margin: 5 auto; Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .css-typing-m p:nth-child(1) {
   width: 350px; /* manually set width */
+  margin-left: 0;
+  margin-right: auto;
   -webkit-animation: type3 2s steps(30, end);
   animation: type3 2s steps(30, end);
   -webkit-animation-fill-mode: forwards;
@@ -91,6 +100,8 @@
 .css-typing-m p:nth-child(2) {
   width: 350px; /* manually set width */
   opacity: 0;
+  margin-left: 0;
+  margin-right: auto;
   -webkit-animation: type3 2s steps(40, end);
   animation: type3 2s steps(40, end);
   -webkit-animation-delay: 2s;
@@ -102,6 +113,8 @@
 .css-typing-m p:nth-child(3) {
   width: 350px; /* manually set width */
   opacity: 0;
+  margin-left: 0;
+  margin-right: auto;
   -webkit-animation: type3 5s steps(20, end);
   animation: type3 2s steps(20, end);
   -webkit-animation-delay: 4s;
@@ -112,6 +125,8 @@
   .css-typing-m p:nth-child(4) {
   width: 350px; /* manually set width */
   opacity: 0;
+  margin-left: 0;
+  margin-right: auto;
   -webkit-animation: type3 2s steps(40, end);
   animation: type3 2s steps(40, end);
   -webkit-animation-delay: 6s;
@@ -122,6 +137,8 @@
  .css-typing-m p:nth-child(5) {
   width: 350px; /* manually set width */
   opacity: 0;
+  margin-left: 0;
+  margin-right: auto;
   -webkit-animation: type3 2s steps(40, end);
   animation: type3 2s steps(40, end);
   -webkit-animation-delay: 8s;
@@ -133,6 +150,8 @@
  .css-typing-m p:nth-child(6) {
   width: 350px; /* manually set width */
   opacity: 0;
+  margin-left: 0;
+  margin-right: auto;
   -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
   animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 10s;

@@ -1,0 +1,273 @@
+/*Services 1- Mobile*/
+#demo .line,
+#demo span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-size: 10px;
+}
+
+#demo span {
+    display: inline-block;
+    position: relative;
+}
+
+#demo span.head {
+    margin-left: 4px;
+}
+
+#demo span.space {
+    margin-right: 4px;
+}
+
+#demo span.current::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 0.9rem;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    border-left: 2px solid #000;
+    animation: blink-caret 0.9s step-end infinite;
+	
+}
+
+#demo span.current.space::after {
+    right: -6px;
+}
+
+#demo span.past {
+    color: white;
+}
+
+@keyframes blink-caret {
+    0% { border-color: #FFF }
+    50% { border-color: transparent }
+    100% { border-color: #FFF }
+}
+
+
+/*Services 2 - Mobile*/
+#demo2 .line,
+#demo2 span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-size: 10px;
+}
+
+#demo2 span {
+    display: inline-block;
+    position: relative;
+}
+
+#demo2 span.head {
+    margin-left: 4px;
+}
+
+#demo2 span.space {
+    margin-right: 4px;
+}
+
+#demo2 span.current::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 0.9rem;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    border-left: 2px solid #000;
+    animation: blink-caret 0.9s step-end infinite;
+	
+}
+
+#demo2 span.current.space::after {
+    right: -6px;
+}
+
+#demo2 span.past {
+    color: white;
+}
+
+
+/*Services 3 - Mobile*/
+#demo3 .line,
+#demo3 span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-size: 10px;
+}
+
+#demo3 span {
+    display: inline-block;
+    position: relative;
+}
+
+#demo3 span.head {
+    margin-left: 4px;
+}
+
+#demo3 span.space {
+    margin-right: 4px;
+}
+
+#demo3 span.current::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 0.9rem;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    border-left: 2px solid #000;
+    animation: blink-caret 0.9s step-end infinite;
+	
+}
+
+#demo3 span.current.space::after {
+    right: -6px;
+}
+
+#demo3 span.past {
+    color: white;
+}
+
+
+/*Services 1 - Desktop*/
+#demo4 .line,
+#demo4 span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-size: 12px;
+}
+
+#demo4 span {
+    display: inline-block;
+    position: relative;
+}
+
+#demo4 span.head {
+    margin-left: 4px;
+}
+
+#demo4 span.space {
+    margin-right: 4px;
+}
+
+#demo4 span.current::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 0.9rem;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    border-left: 2px solid #000;
+    animation: blink-caret 0.9s step-end infinite;
+	
+}
+
+#demo4 span.current.space::after {
+    right: -6px;
+}
+
+#demo4 span.past {
+    color: white;
+}
+
+
+/*Services 2 - Desktop*/
+#demo5 .line,
+#demo5 span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-size: 12px;
+}
+
+#demo5 span {
+    display: inline-block;
+    position: relative;
+}
+
+#demo5 span.head {
+    margin-left: 4px;
+}
+
+#demo5 span.space {
+    margin-right: 4px;
+}
+
+#demo5 span.current::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 0.9rem;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    border-left: 2px solid #000;
+    animation: blink-caret 0.9s step-end infinite;
+	
+}
+
+#demo5 span.current.space::after {
+    right: -6px;
+}
+
+#demo5 span.past {
+    color: white;
+}
+
+
+/*Services 3 - Desktop*/
+#demo6 .line,
+#demo6 span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-size: 12px;
+}
+
+#demo6 span {
+    display: inline-block;
+    position: relative;
+}
+
+#demo6 span.head {
+    margin-left: 4px;
+}
+
+#demo6 span.space {
+    margin-right: 4px;
+}
+
+#demo6 span.current::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 0.9rem;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    border-left: 2px solid #000;
+    animation: blink-caret 0.9s step-end infinite;
+	
+}
+
+#demo6 span.current.space::after {
+    right: -6px;
+}
+
+#demo6 span.past {
+    color: white;
+}
+
+
+
+
+

@@ -1,7 +1,7 @@
 <?php
 print_r($_POST);
 
-if (isset($_POST['submit']){
+{
 	
 	$name = $_POST['your-name'];
 	$email = $_POST['your-email'];

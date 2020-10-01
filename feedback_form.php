@@ -16,11 +16,6 @@ if (isset($_POST['submit']){
 	print "Province:$province<br />";
 	print "message:$message<br />";
 	
-	$mailTo = "shruti_01@live.com";
-	$headers = "From: ".$email;
-	$txt = "Test Email".$name.".\n\n".$message;
 	
-	mail($mailTo, $headers, $txt);
-	header("Location: indexphp?mailsend");
 }
 ?>

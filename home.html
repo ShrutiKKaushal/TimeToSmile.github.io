@@ -1342,13 +1342,19 @@ if(isset($_POST['submit'])) {
 	$province = $_REQUEST['Province'];
 	$message = $_REQUEST['message'];
 
+	print "Name:$name<br />";
+	print "Email:$email<br />";
+	print "company:$company<br />";
+	print "Province:$province<br />";
+	print "message:$message<br />";
+
 	if (empty($name) || empty($email) || empty($company) || empty($province) || empty($message))
 	{
 		print "Please fill all the details";
 	}
 	else
 	{
-		mail("lqtmgqruhooujrbxab@kiabws.online", "Test Email", $message, "From: $name < $email>");
+		mail("gvnpnjvmkghtluzcoz@mhzayt.com", "Test Email", $message, "From: $name < $email>");
 		print "successful";
 		
 	}

@@ -1,5 +1,5 @@
 <?php
-{
+
 	$name = $_REQUEST['your-name'];
 	$email = $_REQUEST['your-email'];
 	$company = $_REQUEST['your-address'];
@@ -28,5 +28,5 @@
 	print "message:$message<br />";
 	
 	
-}
+
 ?>

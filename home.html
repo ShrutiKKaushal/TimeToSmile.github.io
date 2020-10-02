@@ -1258,32 +1258,6 @@ guest shows</p>
 <span class="wpcf7-form-control-wrap your-message-project"><textarea name="your-message-project" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></p>
 <p><input type="button" value="Submit" name="submit" class="wpcf7-form-control wpcf7-submit" /></p>
 <div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div></form></div></div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-    $(document).ready(function(){
-        // click on button submit
-        $("#submit").on('click', function(){
-            // send ajax
-            $.ajax({
-                url: 'index.php', // url where to submit the request
-                type : "POST", // type of action POST || GET
-                dataType : 'json', // data type
-                data : $("#form").serialize(), // post data || get data
-                success : function(result) {
-                    // you can see the result from the console
-                    // tab of the developer tools
-                    console.log(result);
-                },
-                error: function(xhr, resp, text) {
-                    console.log(xhr, resp, text);
-                }
-            })
-        });
-    });
-
-</script>
-
 </div>
 <div class="e826-163 x-col">
 <div class="e826-109 x-text">
@@ -1332,28 +1306,6 @@ guest shows</p>
 <div class="e826-187 x-text">
 <div role="form" class="wpcf7" id="wpcf7-f127-p826-o2" lang="en-CA" dir="ltr">
 <div class="screen-reader-response" aria-live="polite"></div>
-<?php
-      
-if(isset($_POST['submit'])) { 
-	
-	$name = $_REQUEST['name'];
-	$email = $_REQUEST['email'];
-	$company = $_REQUEST['address'];
-	$province = $_REQUEST['Province'];
-	$message = $_REQUEST['message'];
-
-	if (empty($name) || empty($email) || empty($company) || empty($province) || empty($message))
-	{
-		print "Please fill all the details";
-	}
-	else
-	{
-		mail("gvnpnjvmkghtluzcoz@mhzayt.com", "Test Email", $message, "From: $name < $email>");
-		print "successful";
-		
-	}
-}
-?> 
 <form action="/#wpcf7-f127-p826-o2" method="post" id="submit_form" enctype="multipart/form-data" novalidate="novalidate">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="127" />

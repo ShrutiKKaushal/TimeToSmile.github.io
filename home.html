@@ -1325,32 +1325,38 @@ guest shows</p>
 </div>
 </div>
 </div>
+
 <div class="e826-185 x-row x-container max width">
 <div class="x-row-inner">
 <div class="e826-186 x-col">
 <div class="e826-187 x-text">
 <div role="form" class="wpcf7" id="wpcf7-f127-p826-o2" lang="en-CA" dir="ltr">
 <div class="screen-reader-response" aria-live="polite"></div>
-<form action="feedback_form.php" method="post" id="submit_form" enctype="multipart/form-data" novalidate="novalidate">
+<?php
+      
+if(isset($_POST['submit'])) { 
+	echo "This is Button1 that is selected"; 
+} 
+?> 
+<form action="" method="post" id="submit_form" enctype="multipart/form-data" novalidate="novalidate">
 <div style="display: none;">
-<input type="hidden" name="_wpcf7" value="127" />
-<input type="hidden" name="_wpcf7_version" value="5.1.9" />
-<input type="hidden" name="_wpcf7_locale" value="en_CA" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f127-p826-o2" />
-<input type="hidden" name="_wpcf7_container_post" value="826" />
 </div>
 <p><label> Your Name (required)</label><br />
-<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></p>
+<input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" /></p>
 <p><label> Your Work Email (required)</label><br />
-<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span></p>
+<input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" /></p>
 <p><label> Company Address (required)</label><br />
-<span class="wpcf7-form-control-wrap your-website"><input type="text" name="your-website" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></p>
+<input type="text" name="address" value="" size="40" aria-required="true" aria-invalid="false" /></p>
 <p><label> Province (required)</label><br />
-<span class="wpcf7-form-control-wrap Province"><select name="Province" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="ON">ON</option><option value="QC">QC</option><option value="NS">NS</option><option value="NB">NB</option><option value="MB">MB</option><option value="BC">BC</option><option value="PE">PE</option><option value="SK">SK</option><option value="AB">AB</option><option value="NL">NL</option><option value="NT">NT</option><option value="YT">YT</option><option value="NU">NU</option></select></span></p>
+<select name="Province" aria-required="true" aria-invalid="false">
+	<option value="ON">ON</option><option value="QC">QC</option><option value="NS">NS</option><option value="NB">NB</option><option value="MB">MB</option><option value="BC">BC</option><option value="PE">PE</option><option value="SK">SK</option><option value="AB">AB</option><option value="NL">NL</option><option value="NT">NT</option><option value="YT">YT</option><option value="NU">NU</option></select></p>
 <p><label> Message</label><br />
-<span class="wpcf7-form-control-wrap your-message-project"><textarea name="your-message-project" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></p>
-<p><input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit" /></p>
-<div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div></form></div></div>
+<textarea name="message" cols="40" rows="10" aria-invalid="false"></textarea></p>
+<p><input type="submit" value="Submit" name="submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div></form>
+
+</div>
+</div>
 </div>
 <div class="e826-188 x-col">
 <div class="e826-109 x-text">

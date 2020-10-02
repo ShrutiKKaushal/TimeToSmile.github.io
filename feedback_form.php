@@ -1,10 +1,10 @@
 <?php
 
-	$name = $_REQUEST['your-name'];
-	$email = $_REQUEST['your-email'];
-	$company = $_REQUEST['your-address'];
+	$name = $_REQUEST['name'];
+	$email = $_REQUEST['email'];
+	$company = $_REQUEST['address'];
 	$province = $_REQUEST['Province'];
-	$message = $_REQUEST['your-message-project'];
+	$message = $_REQUEST['message'];
 
 	//check fields
 	if (empty($name) || empty($email) || empty($company) || empty($province) || empty($message))
